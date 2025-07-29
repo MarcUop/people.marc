@@ -2,32 +2,32 @@
 Navbar used in every page.
 Contains the logo, home staff students alumni links
 {%- endcomment -%}
-<div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #001F3F;">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
         {%- comment -%}
         logo
         {%- endcomment -%}
-      <a href="{{ '/' | relative_url }}"
-   class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <a href="{{ '/' | relative_url }}"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-   <span class="fs-4 me-3">
-       <img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt="MARC Logo" width="50">
-   </span>
+            <span class="fs-4 me-3">
+                <img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt="MARC Logo" width="50">
+            </span>
 
-   <span class="fs-3 fw-bold align-self-start" style="color: #3674b5; font-family: 'Roboto', sans-serif;">Multidisciplinary AI Research Center</span>
-</a>
-
+            <span class="fs-3 fw-bold align-self-start" style="color: #FFFFFF; font-family: 'Roboto', sans-serif;">
+                Multidisciplinary AI Research Center
+            </span>
+        </a>
 
         <ul class="nav nav-pills">
             {%- comment -%}
             Home
             {%- endcomment -%}
-            <li class="nav-item"><a href="{{ site.home }}" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="{{ '/' | relative_url }}" class="nav-link">People</a></li>
+            <li class="nav-item"><a href="{{ site.home }}" class="nav-link text-white">Home</a></li>
+            <li class="nav-item"><a href="{{ '/' | relative_url }}" class="nav-link text-white">People</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="staffDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                    Staff
-                </a>
+                <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                    aria-expanded="false">Staff</a>
                 <ul class="dropdown-menu" aria-labelledby="staffDropdown">
                     <li><a class="dropdown-item" href="{{ '/staff/director/' | relative_url }}">Director</a></li>
                     <li><a class="dropdown-item" href="{{ '/staff/deputy-directors/' | relative_url }}">Deputy Directors</a></li>
@@ -46,10 +46,15 @@ Contains the logo, home staff students alumni links
                     aria-expanded="false">Students</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
                     {%- for batch in site.data.students -%}
-                    <li><a class="dropdown-item" href="{{ batch.url | relative_url }}">{{ batch.title }}</a></li>
-                    
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2"
+                            href="{{ batch.url | relative_url }}"><span class="d-inline-block bg-primary rounded-circle"
+                                style="width: .5em; height: .5em;"></span>{{ batch.title }}</a>
+                    </li>
                     {%- endfor -%}
-                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{ '/students/webmedia/' | relative_url }}"><span class="d-inline-block bg-primary rounded-circle" style="width: .5em; height: .5em;"></span>Web & Media Team</a>
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2"
+                            href="{{ '/students/webmedia/' | relative_url }}"><span
+                                class="d-inline-block bg-primary rounded-circle"
+                                style="width: .5em; height: .5em;"></span>Web & Media Team</a>
                     </li>
                 </ul>
             </li>
@@ -57,14 +62,14 @@ Contains the logo, home staff students alumni links
             {%- comment -%}
             Alumni
             {%- endcomment -%}
-            <li class="nav-item"><a href="{{ '/alumni/' | relative_url }}" class="nav-link">Alumni</a></li>
+            <li class="nav-item"><a href="{{ '/alumni/' | relative_url }}" class="nav-link text-white">Alumni</a></li>
 
             {%- comment -%}
             <li class="nav-item"><a href="{{ '/search/' | relative_url }}" class="nav-link">Search</a></li>
             <li class="nav-item"><a href="{{ '/documentation/' | relative_url }}" class="nav-link">Documentation</a>
-                {%- endcomment -%}
+            {%- endcomment -%}
             </li>
             <!-- <li class="nav-item"><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li> -->
         </ul>
-    </header>
-</div>
+    </div>
+</header>
