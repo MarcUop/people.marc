@@ -7,10 +7,16 @@ Contains the logo, home staff students alumni links
         {%- comment -%}
         logo
         {%- endcomment -%}
-        <a href="{{ '/' | relative_url }}"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <span class="fs-4"><img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt=""></span>
-        </a>
+      <a href="{{ '/' | relative_url }}"
+   class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+
+   <span class="fs-4 me-3">
+       <img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt="MARC Logo" width="50">
+   </span>
+
+   <span class="fs-3 fw-bold align-self-start" style="color: #3674b5; font-family: 'Roboto', sans-serif;">Multidisciplinary AI Research Center</span>
+</a>
+
 
         <ul class="nav nav-pills">
             {%- comment -%}

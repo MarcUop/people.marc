@@ -71,18 +71,25 @@ This is the footer used in every page
     {% endif %}
 </div>
 
-<footer class="mt-3 pt-3 pb-4 bg-dark">
-    <div class="container">
-        <p class="m-2 text-center text-white">
-            Department of Computer Engineering - University of Peradeniya
+<footer class="mt-3 pt-3 pb-4" style="background-color: #001F3F;">
+    <div class="container text-white">
+
+        <!-- Title -->
+        <p class="m-5 text-center fw-bold">
+            MARC | Multidisciplinary AI Research Center - University of Peradeniya
         </p>
-        <p class="text-center text-muted">
-            <a class="text-decoration-none small footer-link" href="{{ '/documentation/' | relative_url }}">
+
+
+
+        <!-- Footer Links -->
+        <p class="text-center text-muted small mt-3">
+            <a class="text-decoration-none footer-link text-light" href="{{ '/documentation/' | relative_url }}">
                 Documentation</a> |
-            <a class="text-decoration-none small footer-link" href="https://api.ce.pdn.ac.lk/" target="_blank">Data
-                APIs</a> |
-            <span class="small">Last Build: {{site.time | date: "%d-%m-%Y" }}</span>
+            <a class="text-decoration-none footer-link text-light" href="https://api.ce.pdn.ac.lk/" target="_blank">
+                Data APIs</a> |
+            <span class="text-light">Last Build: {{ site.time | date: "%d-%m-%Y" }}</span>
         </p>
+
     </div>
 </footer>
 
