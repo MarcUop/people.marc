@@ -46,8 +46,9 @@ Contains the logo, home staff students alumni links
                 <ul class="dropdown-menu" aria-labelledby="studentsDropdown">
                     {%- for batch in site.data.students -%}
                     <li><a class="dropdown-item" href="{{ batch.url | relative_url }}">{{ batch.title }}</a></li>
+                    
                     {%- endfor -%}
-                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{ '/students/postgraduate/' | relative_url }}"><span class="d-inline-block bg-primary rounded-circle" style="width: .5em; height: .5em;"></span>Postgraduate</a>
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{ '/students/webmedia/' | relative_url }}"><span class="d-inline-block bg-primary rounded-circle" style="width: .5em; height: .5em;"></span>Web & Media Team</a>
                     </li>
                 </ul>
             </li>
