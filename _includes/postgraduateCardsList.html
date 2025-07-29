@@ -8,17 +8,16 @@ degree
 {% assign profilePages = site.pages | where: "layout", "postgraduateDetails" | where: "degree", include.degree | sort: "index_in_card_list" | reverse%}
 
 {% if profilePages[0] %}
-<h3 id="{{ include.degree }}" class="text-center pt-2">
+<!--<h3 id="{{ include.degree }}" class="text-center pt-2">-->
 
     <!-- Will add some custom title in future -->
-    {%- if include.degree == "PhD" -%} PhD Students
+    <!--{%- if include.degree == "PhD" -%} PhD Students
     {%- elsif include.degree == "MPhil" -%} MPhil Students
     {%- elsif include.degree == "MSc" -%} MSc Students
     {%- elsif include.degree == "MEng" -%} MEng Students
     {%- elsif include.degree == "Provisional" -%} Other
     {%- endif -%}
-</h3>
-<hr>
+</h3>-->
 
 {% for item in profilePages %}
 <div class="card text-center p-2 m-1 border-primary" style="width: 11rem;">

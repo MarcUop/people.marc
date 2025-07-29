@@ -2,21 +2,22 @@
 Navbar used in every page.
 Contains the logo, home staff students alumni links
 {%- endcomment -%}
-<div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #001F3F;">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
         {%- comment -%}
         logo
         {%- endcomment -%}
-      <a href="{{ '/' | relative_url }}"
-   class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <a href="{{ '/' | relative_url }}"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-   <span class="fs-4 me-3">
-       <img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt="MARC Logo" width="50">
-   </span>
+            <span class="fs-4 me-3">
+                <img src="{{ '/assets/img/header-logo.png' | relative_url }}" alt="MARC Logo" width="50">
+            </span>
 
-   <span class="fs-3 fw-bold align-self-start" style="color: #3674b5; font-family: 'Roboto', sans-serif;">Multidisciplinary AI Research Center</span>
-</a>
-
+            <span class="fs-3 fw-bold align-self-start" style="color: #FFFFFF; font-family: 'Roboto', sans-serif;">
+                Multidisciplinary AI Research Center
+            </span>
+        </a>
 
         <ul class="nav nav-pills">
             {%- comment -%}
@@ -64,7 +65,10 @@ Contains the logo, home staff students alumni links
                                 style="width: .5em; height: .5em;"></span>{{ batch.title }}</a>
                     </li>
                     {%- endfor -%}
-                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{ '/students/postgraduate/' | relative_url }}"><span class="d-inline-block bg-primary rounded-circle" style="width: .5em; height: .5em;"></span>Postgraduate</a>
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2"
+                            href="{{ '/students/postgraduate/' | relative_url }}"><span
+                                class="d-inline-block bg-primary rounded-circle"
+                                style="width: .5em; height: .5em;"></span>Postgraduate</a>
                     </li>
                 </ul>
             </li>
@@ -77,9 +81,9 @@ Contains the logo, home staff students alumni links
             {%- comment -%}
             <li class="nav-item"><a href="{{ '/search/' | relative_url }}" class="nav-link">Search</a></li>
             <li class="nav-item"><a href="{{ '/documentation/' | relative_url }}" class="nav-link">Documentation</a>
-                {%- endcomment -%}
+            {%- endcomment -%}
             </li>
             <!-- <li class="nav-item"><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li> -->
         </ul>
-    </header>
-</div>
+    </div>
+</header>
