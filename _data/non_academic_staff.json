@@ -1,65 +1,68 @@
 [
+
     {
-        "staff_name" : "Priyangani Samaratunge",
-        "text_below_name" : "Computer Operator",
-        "url_image" : "images/staff/non-academic-staff/priyangi_samaratunge.jpg",
-        "contact_number" : "+94 81 2393471",
-        "on_duty": "false",
-        "email" : "priyangani@eng.pdn.ac.lk"
-    },
-    {
-        "staff_name" : "Bandara Wasundara",
-        "text_below_name" : "Technical Officer",
-        "url_image" : "images/staff/non-academic-staff/bandara.jpg",
-        "contact_number" : "+94 81 2393911",
-        "on_duty": "true",
-        "email" : "bandaraw@eng.pdn.ac.lk"
-    },
-    {
-        "staff_name" : "Kelum Gunarathne",
-        "text_below_name" : "Technical Officer",
-        "url_image" : "images/staff/non-academic-staff/kelum.jpg",
-        "contact_number" : "+94 81 2393910",
-        "on_duty": "true",
-        "email" : "kalumg@eng.pdn.ac.lk"
-    },
-    {
-        "staff_name" : "Umega Rathnayake",
-        "text_below_name" : "Technical Officer",
-        "url_image" : "images/staff/non-academic-staff/umega.jpg",
-        "contact_number" : "+94 81 2393471",
-        "on_duty": "true",
-        "email" : "urathnayake@eng.pdn.ac.lk"
-    },
-    {
-        "staff_name" : "Hemantha Kumara",
-        "text_below_name" : "Staff Assistant",
-        "url_image" : "images/staff/non-academic-staff/hemantha.jpg",
-        "contact_number" : "+94 81 2393471",
-        "on_duty": "true",
-        "email": "hemanthak@eng.pdn.ac.lk"
-    },
-    {
-        "staff_name" : "Anuradha Bandara",
-        "text_below_name" : "Staff Assistant",
-        "url_image" : "images/staff/non-academic-staff/anuradha.jpg",
-        "contact_number" : "+94 81 2393471",
-        "on_duty": "true",
-        "email": "anuradhasb@eng.pdn.ac.lk"
-    },
-    {
-        "staff_name" : "U.B. Weebadda",
-        "text_below_name" : "Staff Assistant",
-        "url_image" : "images/staff/non-academic-staff/weebadda.jpg",
+        "staff_name" : "Samuditha Wijeratne",
+        "text_below_name" : "Pre-University Research Assistant",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
         "contact_number" : "",
-        "on_duty": "false"
+        "on_duty": "true",
+        "email" : ""
     },
     {
-        "staff_name" : "Sarojini Madahapola",
-        "text_below_name" : "Computer Operator",
-        "url_image" : "images/staff/non-academic-staff/sarojini.jpg",
+        "staff_name" : "Januda Bohara Satharasinghe",
+        "text_below_name" : "Pre-University Research Assistant",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
         "contact_number" : "",
-        "on_duty": "false",
-        "email": "sarojinim@eng.pdn.ac.lk"
+        "on_duty": "true",
+        "email": ""
+    },
+    {
+        "staff_name" : "Sajana Bogahawatta",
+        "text_below_name" : "Pre-University Research Assistant",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
+        "contact_number" : "",
+        "on_duty": "true",
+        "email": ""
+    },
+    {
+        "staff_name" : "Sandupama Gunawardana",
+        "text_below_name" : "Pre-University Research Assistant",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
+        "contact_number" : "",
+        "on_duty": "true",
+        "email": ""
+    },
+    {
+        "staff_name" : "Mekala Indrawansha",
+        "text_below_name" : "Pre-University Research Assistant",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
+        "contact_number" : "",
+        "on_duty": "true",
+        "email": ""
+    },
+    {
+        "staff_name" : "Dilshara Herath",
+        "text_below_name" : "Intern",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
+        "contact_number" : "",
+        "on_duty": "true",
+        "email" : ""
+    },
+    {
+        "staff_name" : "Harshani Rathnayake",
+        "text_below_name" : "Intern",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
+        "contact_number" : "",
+        "on_duty": "true",
+        "email" : ""
+    },
+    {
+        "staff_name" : "Lelumi Edirisinghe",
+        "text_below_name" : "Intern",
+        "url_image" : "images/staff/interns-volunteers/Image1.jpg",
+        "contact_number" : "",
+        "on_duty": "true",
+        "email" : ""
     }
+    
 ]
